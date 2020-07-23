@@ -1,0 +1,112 @@
+body{
+	background-color: red;
+
+
+header{
+	background-color: gray;
+}
+
+p{
+	font-family: "Times New Roman";
+}
+.resume{
+	width: 960px;
+	margin: 0 auto;
+	background-color: lightgray;
+
+}
+
+.page{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.page li{
+	min-width: 8em;
+	float: left;
+	margin-right: 0.5em;
+	text-align: center;
+}
+
+.page li a:link,
+.page li a:visited{
+	background-color: aqua;
+	display: block;
+	padding: 0;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 0 0.2em 0;
+	border-radius: 3px;
+	box-shadow: 3px, 3px, 3px, 3px rgba(43, 43, 77, 0.5)
+}
+
+.page li a:hover{
+	background-color: yellow;
+	-webkit-transform: scale(2,2);
+	-ms-transform: scale(2,2);
+	transform: scale(2,2);
+}
+
+.clear{
+	clear: both;
+}
+
+#welcome{
+	background: #e8e8e8;
+	 float: left;
+	 width: 70%;
+ 	 margin-right: 20px;
+ 	 padding: 15px;
+	
+}
+#big{
+ 	background-color: #e8e8e8;
+ 	float: left;
+ 	padding: 15px;
+ 	width: 20%;
+	margin-bottom: 50px; 
+
+}
+
+#data img{
+	max-width: 100px;
+	max-height: 100px;
+	float: right;
+
+}
+
+#data{
+	background-color: white;
+	float: left;
+	width: 40%;
+	height: 200px;
+ 	margin: 20px;
+  	padding: 15px;
+	
+}
+
+#world img{
+	max-width: 100px;
+	max-height: 100px;
+	float: right;
+
+}
+
+#world{
+ 	background-color: white;
+  	float: right;
+	width: 40%;
+	height: 200px;
+ 	margin: 20px;
+ 	padding: 15px;
+	
+}
+
+footer{
+	background-color: black;
+	height: 50px;
+	color: white;
+	text-align: right;
+	padding-right: 20px;
+	padding-top: 15px;
+}
